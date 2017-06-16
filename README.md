@@ -3,8 +3,8 @@ LowRecyclerView使用的Demo
 
 LowRecyclerView的地址：https://github.com/liusmallpig/LowRecyclerView
 
-##实现效果：
-
+实现效果：
+----------
 
 ![1.ListView](https://github.com/liusmallpig/LowRecyclerView/blob/master/listview.gif)
 ![2.GridView](https://github.com/liusmallpig/LowRecyclerView/blob/master/gridview.gif)
