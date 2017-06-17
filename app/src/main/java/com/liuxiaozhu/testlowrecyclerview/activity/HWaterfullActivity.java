@@ -71,7 +71,7 @@ public class HWaterfullActivity extends AppCompatActivity {
                 Picasso.with(mContext)
                         .load(item.getImg())
                         .into(holder.getImageView(R.id.id_index_gallery_item_image));
-                holder.setImageWidth(R.id.id_index_gallery_item_image,500+(position%3)*50);
+                holder.setImageWidth(R.id.id_index_gallery_item_image,200+(position%3)*50);
                 holder.setClickListener(R.id.id_index_gallery_item_image);
                 holder.setItemClickListener();
             }
@@ -87,7 +87,7 @@ public class HWaterfullActivity extends AppCompatActivity {
             }
         };
         recyclerView.setAdapter(adapter);
-        new RecyclerViewUtils<Test>(recyclerView, adapter, 3).addItemDecoration(1,R.color.colorAccent);
+        new RecyclerViewUtils<Test>(recyclerView, adapter, 3);
     }
 
     private void initView() {
