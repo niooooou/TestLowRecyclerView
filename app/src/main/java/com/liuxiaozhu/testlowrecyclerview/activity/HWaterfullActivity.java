@@ -87,7 +87,7 @@ public class HWaterfullActivity extends AppCompatActivity {
             }
         };
         recyclerView.setAdapter(adapter);
-        new RecyclerViewUtils<Test>(recyclerView, adapter, 3);
+        new RecyclerViewUtils<Test>(recyclerView, adapter, 2);
     }
 
     private void initView() {
