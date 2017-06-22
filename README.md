@@ -12,12 +12,12 @@ Send me an email if you have any good suggestions or questions：chenhuixueba@16
 实现效果(Effect)：
 ----------
 
-![1.ListView](https://github.com/liusmallpig/LowRecyclerView/blob/master/listview.gif)
-![2.GridView](https://github.com/liusmallpig/LowRecyclerView/blob/master/gridview.gif)
-![3.WaterFall](https://github.com/liusmallpig/LowRecyclerView/blob/master/waterfall.gif)
-![4.HorizontalListView](https://github.com/liusmallpig/LowRecyclerView/blob/master/HListView.gif)
-![5.HorizontalGridView](https://github.com/liusmallpig/LowRecyclerView/blob/master/hgridview.gif)
-![6.HorizontalWaterFall](https://github.com/liusmallpig/LowRecyclerView/blob/master/hwaterfull.gif)
+![1.ListView](https://github.com/liusmallpig/LowRecyclerView/blob/master/view/listview.gif)
+![2.GridView](https://github.com/liusmallpig/LowRecyclerView/blob/master/view/gridview.gif)
+![3.WaterFall](https://github.com/liusmallpig/LowRecyclerView/blob/master/view/waterfall.gif)
+![4.HorizontalListView](https://github.com/liusmallpig/LowRecyclerView/blob/master/view/HListView.gif)
+![5.HorizontalGridView](https://github.com/liusmallpig/LowRecyclerView/blob/master/view/hgridview.gif)
+![6.HorizontalWaterFall](https://github.com/liusmallpig/LowRecyclerView/blob/master/view/hwaterfull.gif)
 
 
 
