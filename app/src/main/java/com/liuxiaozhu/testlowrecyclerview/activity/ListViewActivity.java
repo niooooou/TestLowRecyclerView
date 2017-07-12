@@ -75,7 +75,7 @@ public class ListViewActivity extends AppCompatActivity {
                 //这里对listview每个itme中的子控件设置值
                 holder.getTextView(R.id.item_title).setText(item.getTitle() + position);
                 holder.getTextView(R.id.item_content).setText(item.getContent() + position);
-                Picasso.with(mContext)
+                Picasso.with(adapter.getContext())
                         .load(item.getImg())
                         .into(holder.getImageView(R.id.item_image));
                 //给ImageView设置点击事件监听
@@ -89,7 +89,7 @@ public class ListViewActivity extends AppCompatActivity {
                 if (footposition == 1) {
                     holder.getTextView(R.id.head1_text).setText("我是foot"+footposition);
                 } else {
-                    Picasso.with(mContext)
+                    Picasso.with(adapter.getContext())
                             .load("https://b-ssl.duitang.com/uploads/item/201404/15/20140415093636_Rdr3x.jpeg")
                             .fit()
                             .into(holder.getImageView(R.id.imageview));
@@ -104,7 +104,7 @@ public class ListViewActivity extends AppCompatActivity {
                 if (position == 1) {
                     holder.getTextView(R.id.head1_text).setText("我是Header" + position);
                 } else {
-                    Picasso.with(mContext)
+                    Picasso.with(adapter.getContext())
                             .load("https://b-ssl.duitang.com/uploads/item/201404/15/20140415093636_Rdr3x.jpeg")
                             .fit()
                             .into(holder.getImageView(R.id.imageview));

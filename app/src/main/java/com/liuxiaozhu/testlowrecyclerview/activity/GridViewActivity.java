@@ -72,7 +72,7 @@ public class GridViewActivity extends Activity {
             @Override
             protected void setData(BaseRecycleViewsHolder holder, int position, Test item) {
                 holder.getTextView(R.id.id_index_gallery_item_text).setText(position+"");
-                Picasso.with(mContext)
+                Picasso.with(adapter.getContext())
                         .load(item.getImg())
                         .into(holder.getImageView(R.id.id_index_gallery_item_image));
                 holder.setClickListener(R.id.id_index_gallery_item_image);
@@ -81,7 +81,7 @@ public class GridViewActivity extends Activity {
 
             @Override
             protected void setFootData(BaseRecycleViewsHolder holder, int position, int footposition) {
-                Picasso.with(mContext)
+                Picasso.with(adapter.getContext())
                         .load("https://b-ssl.duitang.com/uploads/item/201404/15/20140415093636_Rdr3x.jpeg")
                         .fit()
                         .into(holder.getImageView(R.id.imageview));
@@ -89,7 +89,7 @@ public class GridViewActivity extends Activity {
 
             @Override
             protected void setHeadData(BaseRecycleViewsHolder holder, int position) {
-                Picasso.with(mContext)
+                Picasso.with(adapter.getContext())
                         .load("https://b-ssl.duitang.com/uploads/item/201404/15/20140415093636_Rdr3x.jpeg")
                         .fit()
                         .into(holder.getImageView(R.id.imageview));

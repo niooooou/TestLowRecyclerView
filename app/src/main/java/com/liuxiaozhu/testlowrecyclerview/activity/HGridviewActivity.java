@@ -69,7 +69,7 @@ public class HGridviewActivity extends AppCompatActivity {
             @Override
             protected void setData(BaseRecycleViewsHolder holder, int position, Test item) {
                 holder.getTextView(R.id.id_index_gallery_item_text).setText(position+"");
-                Picasso.with(mContext)
+                Picasso.with(adapter.getContext())
                         .load(item.getImg())
                         .into(holder.getImageView(R.id.id_index_gallery_item_image));
                 holder.setClickListener(R.id.id_index_gallery_item_image);
