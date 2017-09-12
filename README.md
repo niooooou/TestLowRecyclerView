@@ -1,6 +1,8 @@
 # TestLowRecyclerView
 LowRecyclerView使用的Demo
 
+# 本项目由于在后期使用过程中扩展性太差，仅能实现一些基本的列表，现在决定停止维护，等待重新架构之后会重新上传，现在仅共学习使用
+
 如果你觉得LowRecyclerView不错，请点击Star和Fork,非常感谢！！！<br>
 If you think LowRecyclerView is good, please click Star and Fork, thank you very much！！！<br>
 如果有好的建议或者问题请给我发送邮件：chenhuixueba@163.com。<br>
